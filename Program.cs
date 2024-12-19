@@ -34,9 +34,7 @@ public class Program
     static void Calculator(bool isDone)
     {
         ConsoleKeyInfo cki;
-        string done;
         float sum;
-        bool finishComp = false;
         float inputNum;
 
         Console.WriteLine("Enter your first number. Press <Shift> when your're fully done");
@@ -47,7 +45,16 @@ public class Program
             inputNum = Convert.ToSingle(Console.ReadLine());
         }    while ((cki.Modifiers & ConsoleModifiers.Shift) == 0);
         
-        Console.WriteLine(sum);
+        Console.WriteLine("Hi");
+        Complete(isDone);
+        
+            
+    }
+
+    static void Complete(bool isDone)
+    {
+        string done;
+
         Console.WriteLine("Are you done for today?");
         done = Console.ReadLine()!;
         if (done == "yes")
@@ -59,7 +66,6 @@ public class Program
             Input(isDone);
         }
 
-            
     }
 }
 

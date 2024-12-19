@@ -13,3 +13,9 @@
 /workspaces/unit-4-3-assignment-CondesnsedMilk/obj/Debug/net8.0/unit-4-3-assignment-CondesnsedMilk.pdb
 /workspaces/unit-4-3-assignment-CondesnsedMilk/obj/Debug/net8.0/unit-4-3-assignment-CondesnsedMilk.genruntimeconfig.cache
 /workspaces/unit-4-3-assignment-CondesnsedMilk/obj/Debug/net8.0/ref/unit-4-3-assignment-CondesnsedMilk.dll
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.AssemblyInfoInputs.cache
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.AssemblyInfo.cs
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.csproj.CoreCompileInputs.cache
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.sourcelink.json
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.pdb
