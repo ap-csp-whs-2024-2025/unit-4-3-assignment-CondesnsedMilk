@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("unit-4-3-assignment-CondesnsedMilk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+338b46690a100b24781878cad351e71c6b87856a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca9de667626c2dd31e1660463e7de82268970556")]
 [assembly: System.Reflection.AssemblyProductAttribute("unit-4-3-assignment-CondesnsedMilk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("unit-4-3-assignment-CondesnsedMilk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

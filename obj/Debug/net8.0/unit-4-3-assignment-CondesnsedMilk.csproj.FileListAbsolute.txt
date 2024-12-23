@@ -19,3 +19,12 @@ c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-
 c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.csproj.CoreCompileInputs.cache
 c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.sourcelink.json
 c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.pdb
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\bin\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.exe
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\bin\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.deps.json
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\bin\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.runtimeconfig.json
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\bin\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.dll
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\bin\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.pdb
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.dll
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\refint\unit-4-3-assignment-CondesnsedMilk.dll
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\unit-4-3-assignment-CondesnsedMilk.genruntimeconfig.cache
+c:\Users\Cornsyrup\unit-4-3-assignment-CondesnsedMilk\obj\Debug\net8.0\ref\unit-4-3-assignment-CondesnsedMilk.dll

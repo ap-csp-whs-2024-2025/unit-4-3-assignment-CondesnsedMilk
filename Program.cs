@@ -2,68 +2,83 @@
 
 public class Program
 {
-    public static void Main(string[] args)
-    {   
-        bool isDone = false;
+    public static bool isDone = false;
 
-        while (isDone == false)
+    public static void Main()
+    {  
+        while (!isDone)
         {
-            Input(isDone);
-        }
-    
-
-    }
-
-    static void Input(bool isDone)
-    {
-        Console.WriteLine("Welcome to the Calculator! Here are some options you can do!");
-        Console.Write("Select the following options. Additon (+) Subtraction (-) Mutliplication (*) Division (/)");
-        string inputChoice = Console.ReadLine()!;
-        if (inputChoice == "+" || inputChoice == "-" || inputChoice == "*" || inputChoice == "/")
-        {
-            Calculator(isDone);
-        }
-        else
-        {
-            Console.WriteLine("Input invalid, try agian.");
-            Input(isDone);
+            Input();
         }
 
     }
 
-    static void Calculator(bool isDone)
+        static void Addition()
     {
-        ConsoleKeyInfo cki;
-        float sum;
         float inputNum;
+        float sum = 0;
+        bool done = false;
+        bool isNum;
+        string input;
+        
 
-        Console.WriteLine("Enter your first number. Press <Shift> when your're fully done");
+        Console.WriteLine("Enter your number. Type 'x' (or 'X') when you're done:");
 
-        do
+        while (!done)
         {
-            cki = Console.ReadKey();
-            inputNum = Convert.ToSingle(Console.ReadLine());
-        }    while ((cki.Modifiers & ConsoleModifiers.Shift) == 0);
-        
-        Console.WriteLine("Hi");
-        Complete(isDone);
-        
-            
-    }
+            input = Console.ReadLine()!;
+            isNum = float.TryParse(input, out inputNum);
 
-    static void Complete(bool isDone)
+            if (input.ToLower() == "x")
+            {
+                Console.WriteLine($"Your sum is {sum}!");
+                done = true;
+            }
+
+            if (isNum)
+            {
+                inputNum = Convert.ToSingle(input);
+                sum += inputNum;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid number or 'x' to finish.");
+            }
+
+        }
+
+        Complete();
+    }   
+
+        static void Complete()
     {
         string done;
 
         Console.WriteLine("Are you done for today?");
         done = Console.ReadLine()!;
-        if (done == "yes")
+
+        if (done == "yes" || done == "Yes")
         {
             isDone = true;
+            
+        }
+
+
+    }
+
+    static void Input()
+    {
+        Console.WriteLine("Welcome to the Calculator! Here are some options you can do!");
+        Console.Write("Select the following options. Additon (+) Subtraction (-) Mutliplication (*) Division (/): ");
+        string inputChoice = Console.ReadLine()!;
+        if (inputChoice == "+" || inputChoice == "-" || inputChoice == "*" || inputChoice == "/")
+        {
+            Addition();
         }
         else
         {
-            Input(isDone);
+            Console.WriteLine("Input invalid, try agian.");
+            Input();
         }
 
     }
