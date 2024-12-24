@@ -13,7 +13,7 @@ public class Program
 
     }
 
-        static void Addition()
+    static void Addition()
     {
         float inputNum;
         float sum = 0;
@@ -49,7 +49,7 @@ public class Program
         Complete();
     }   
 
-        static void Complete()
+    static void Complete()
     {
         string done;
 
@@ -62,19 +62,38 @@ public class Program
             
         }
 
-
     }
 
     static void Division()
     {
+        float initalNum;
         float inputNum;
-        float sum = 0;
+        float quotient = 0;
         bool done = false;
         bool isNum;
         string input;
         
 
         Console.WriteLine("Enter your number. Type 'x' (or 'X') when you're done:");
+
+        input = Console.ReadLine()!;
+        isNum = float.TryParse(input, out initalNum);
+
+        if (isNum)
+        {
+            initalNum = Convert.ToSingle(input);
+        }
+        else if (input.ToLower() == "x")
+        {
+            Console.WriteLine($"Your quotient is {quotient}!");
+            done = true;
+        }
+        else
+        {
+            Console.WriteLine("Error. Try again.");
+            Division();
+
+        }
 
         while (!done)
         {
@@ -83,20 +102,23 @@ public class Program
 
             if (input.ToLower() == "x")
             {
-                Console.WriteLine($"Your sum is {sum}!");
+                Console.WriteLine($"Your quotient is {quotient}!");
                 done = true;
             }
-
-            if (isNum)
+            else if (inputNum == 0)
+            {
+                Console.WriteLine("Divide by 0 error. Please enter a valid number or 'x' to finish.");
+            }
+            else if (isNum)
             {
                 inputNum = Convert.ToSingle(input);
-                sum /= inputNum;
+                quotient = initalNum / inputNum;
             }
             else
             {
                 Console.WriteLine("Invalid input. Please enter a valid number or 'x' to finish.");
             }
-
+            initalNum = quotient;
         }
 
         Complete();
@@ -143,7 +165,7 @@ public class Program
     static void Mutliplication()
     {
         float inputNum;
-        float product = 0;
+        float product = 1;
         bool done = false;
         bool isNum;
         string input;
@@ -161,8 +183,7 @@ public class Program
                 Console.WriteLine($"Your product is {product}!");
                 done = true;
             }
-
-            if (isNum)
+            else if (isNum)
             {
                 inputNum = Convert.ToSingle(input);
                 product = product * inputNum;
